@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="./main.js" defer></script>
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+<link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  <!-- How many team members can I invite?
+  You can invite up to 2 additional users on the Free plan. There is no limit on 
+  team members for the Premium plan.
+
+  What is the maximum file upload size?
+  No more than 2GB. All files in your account must fit your allotted storage space.
+
+  How do I reset my password?
+  Click “Forgot password” from the login page or “Change password” from your profile page.
+  A reset link will be emailed to you.
+
+  Can I cancel my subscription?
+  Yes! Send us a message and we’ll process your request no questions asked.
+
+  Do you provide additional support?
+  Chat and email support is available 24/7. Phone lines are open during normal business hours.
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <div class="card">
+    <div class="box"><img src="./images/illustration-box-desktop.svg" alt="box" class="box1" >
+      <img src="./images/illustration-woman-online-mobile.svg" alt="" class="woman">
+    </div>
+    <!-- <img src="./images/illustration-woman-online-mobile.svg" alt="" class="woman"> -->
+    <div class="main">
+      
+      
+        <h3>FAQ</h3>
+        <div class="row">
+          <div class="leftrow">
+      <div class="question" onclick="showtoggle()"  >
+        <p id='ques1' class="red">How many team members can I invite?</p>
+        <div class="answer" id="answer1">
+          <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
+          team members for the Premium plan</p>
+        </div>
+      </div>
+      </div>
+      <div><img src="./images/icon-arrow-down.svg" alt=""  id='arro1'></div>
+      
+    </div>
+
+    <div class="row">
+      <div class="leftrow">
+      <div class="question"  onclick="showtoggle2()">
+        <p id='ques2'class="red" >What is the maximum file upload size? </p>
+        <div class="answer"id="answer2" ><p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </div>
+      </div>
+    </div>
+    <div><img src="./images/icon-arrow-down.svg" alt=""  id='arro2'></div>
+  </div>
+
+  <div class="row">
+    <div class="leftrow">
+      <div class="question" onclick="showtoggle3()" >
+        <p id='ques3' class="red" > How do I reset my password?</p>
+        <div class="answer" id="answer3">
+          <p>Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.</p>
+        </div>
+      </div>
+    </div>
+    <div><img src="./images/icon-arrow-down.svg" alt="" id='arro3' ></div>
+  </div>
+
+
+  <div class="row">
+    <div class="leftrow">
+      <div class="question" onclick="showtoggle4()" >
+        <p id='ques4'class="red" > Can I cancel my subscription?</p>
+        <div class="answer" id="answer4">
+          <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+
+        </div>
+      </div>
+    </div>
+    <div><img src="./images/icon-arrow-down.svg" alt=""  id='arro4' ></div>
+  </div>
+
+  <div class="row">
+    <div class="leftrow">
+      <div class="question" onclick="showtoggle5()" >
+        <p id='ques5' class="red"  > Do you provide additional support?  </p>
+        <div class="answer" id="answer5" >
+          <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        </div>
+      </div>
+    </div>
+    <div><img src="./images/icon-arrow-down.svg" alt=""  id='arro5' ></div>
+  </div>
+
+    </div>
+    
+    
+  </div>
+    
+</body>
+</html>
